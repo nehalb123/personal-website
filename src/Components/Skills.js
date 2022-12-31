@@ -24,9 +24,9 @@ const Skills = () => {
           <h2>Skills</h2>
         </div>
         
-        <div class = "grid-container">
           
-         
+         <Row>
+          <Col lg={3}>
           <ul class = "grid-item grid-item-1">
           <h4>Languages</h4>
               {
@@ -35,7 +35,9 @@ const Skills = () => {
                 ))
               }
           </ul>
-          
+          </Col>
+
+          <Col lg={3}>
           <ul class = "grid-item grid-item-2">
           <h4>Databases</h4>
               {
@@ -44,16 +46,21 @@ const Skills = () => {
                 ))
               }
           </ul>
-          
+          </Col>
+
+          <Col lg={3}>
           <ul class = "grid-item grid-item-3">
-          <h4>Frameworks/Libraries</h4>
+          <h4>Frameworks/Libs</h4>
               {
                 skills_frameworks.map((skill, i) => (
                   <p class="frameworks" key={i}>{skill}</p>
                 ))
               }
           </ul>
-          
+          </Col>
+
+
+          <Col lg={3}>
           <ul class = "grid-item grid-item-4">
           <h4>Tools</h4>
               {
@@ -62,12 +69,10 @@ const Skills = () => {
                 ))
               }
           </ul>
-
+          </Col>
           
-          
+          </Row>
         </div>
-
-      </div>
     </section>
   );
 }

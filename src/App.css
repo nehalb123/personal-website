@@ -614,31 +614,30 @@ section {
 
 #skills .languages::before {
   content: "▹";
-  left: 45px;
-  position: absolute;
+  margin-right: 20px;
 }
 
 #skills .databases::before {
   content: "▹";
-  left: 415px;
-  position: absolute;
+  margin-right: 20px;
+  /* position: absolute; */
 }
 
 #skills .frameworks::before {
   content: "▹";
-  left: 785px;
-  position: absolute;
+  margin-right: 20px;
+  /* position: absolute; */
 }
 
 #skills .tools::before {
   content: "▹";
-  left: 1160px;
-  position: absolute;
+  margin-right: 20px;
+  /* position: absolute; */
 }
 
 #skills p {
   color: rgba(255, 255, 255, 0.8);
-  margin: 0 0 0 30px;
+  margin: 0 0 0 0;
   
 }
 

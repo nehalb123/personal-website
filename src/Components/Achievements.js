@@ -4,28 +4,28 @@ import Card from "react-bootstrap/Card";
 const Achievements = () => {
     const items = [
         {
-            img: tf_badge,
+            // img: ubs,
             cardTitle: "UBS Recognition Award",
             cardText: "Issued on: <br/> Feb, 2019",
             // btnText: "See Credential",
             // btnUrl: "https://www.credential.net/bef2570d-7d63-4f07-be28-57ec4da87373",
         },
         {
-            img: mta,
+            // img: iete,
             cardTitle: "IETE Project Competition",
             cardText: "Issued on: <br/> May, 2018",
             // btnText: "See Credential",
             // btnUrl: "https://www.youracclaim.com/badges/a5e09eea-6e4e-4934-bc2e-1f68679c1bb3/linked_in_profile",
         },
         {
-            img: ocajp,
+            // img: abhikalp,
             cardTitle: "Abhikalp 2018",
             cardText: "Issued on: <br/> May, 2018",
             // btnText: "See Credential",
             // btnUrl: "https://www.youracclaim.com/badges/caf3f573-a61d-4e0e-8560-5353a6a83693/linked_in_profile",
         },
         {
-            img: google_assistant,
+            // img: inc,
             cardTitle: "Impetus and Concepts",
             cardText: "Second prize for final year project",
         },

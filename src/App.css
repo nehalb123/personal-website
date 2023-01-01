@@ -651,6 +651,19 @@ section {
   font-size: 1.2em;
 } */
 
+.experience-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.experience-technologies > * {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+
 .vertical-timeline.vertical-timeline-custom-line::before {
   background: #424242;
 }

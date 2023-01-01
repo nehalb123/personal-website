@@ -19,7 +19,7 @@ export default function About() {
               style={{ borderRadius: "50%" }}
             />
           </Col> */}
-          <Col lg={10} pt={4} className="content" >
+          <Col lg={12} pt={4} className="content" >
             <br></br>
             <div>
             <p>Hello! I'm a polyglot developer with inclination towards developing backend systems. I have 3 years of work experience in building systems for 
@@ -41,10 +41,6 @@ export default function About() {
             </div>
             <br></br>
             <div>
-              
-  
-              
-             
                 <ul>
                   <li>
                     <i class="bi bi-chevron-right"></i> <strong>Phone:</strong>{" "}

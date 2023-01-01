@@ -62,7 +62,7 @@ export default function Experience() {
                   <VerticalTimelineElement
                     key={i}
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: "#343a40" }}
+                    contentStyle={{ background: "#1F3247" }}
                     date={data.date}
                     dateClassName="timeline-date"
                     contentArrowStyle={{

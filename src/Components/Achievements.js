@@ -53,8 +53,9 @@ const Achievements = () => {
                             <Card
                                 style={{
                                     width: "16rem",
-                                    background: "#343a40",
+                                    background: "#1F3247",
                                     padding: "20px",
+                                    borderColor: "#0463bb"
                                 }}
                                 className="text-center"
                             >

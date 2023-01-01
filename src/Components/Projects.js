@@ -99,7 +99,7 @@ const Projects = () => {
                 <VerticalTimelineElement
                   key={i}
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: "#343a40" }}
+                  contentStyle={{ background: "#1F3247" }}
                   dateClassName="timeline-date"
                   contentArrowStyle={{
                     borderRight: "7px solid  rgb(33, 150, 243)",

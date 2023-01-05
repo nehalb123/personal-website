@@ -615,23 +615,27 @@ section {
 #skills .languages::before {
   content: "▹";
   margin-right: 20px;
+  color: rgb(5, 99, 187);
 }
 
 #skills .databases::before {
   content: "▹";
   margin-right: 20px;
+  color: rgb(5, 99, 187);
   /* position: absolute; */
 }
 
 #skills .frameworks::before {
   content: "▹";
   margin-right: 20px;
+  color: rgb(5, 99, 187);
   /* position: absolute; */
 }
 
 #skills .tools::before {
   content: "▹";
   margin-right: 20px;
+  color: rgb(5, 99, 187);
   /* position: absolute; */
 }
 

@@ -55,7 +55,8 @@ const Achievements = () => {
                                     width: "16rem",
                                     background: "#1F3247",
                                     padding: "20px",
-                                    borderColor: "#0463bb"
+                                    borderColor: "#0463bb",
+                                    marginBottom: "10px",
                                 }}
                                 className="text-center"
                             >

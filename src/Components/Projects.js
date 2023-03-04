@@ -35,7 +35,7 @@ const Projects = () => {
       cardTitle: "Human Activities Classification on Time Series Data",
       cardDetailedText: [
         "Implemented a logistic regression model (with an accuracy of 93%) using case-controlled sampling technique to classify bending vs other activities on a dataset obtained by a Wireless Sensor Network.",
-        "Using the same dataset, the task of multi-class activities (\"bending\", \"walking\", \"cycling\", \"lying\", \"sitting\", \"standing\") classification was performed using Gaussian and Multinomial Naive Bayes classifier with an accuracy of 90%",
+        "Using the same dataset, the task of multi-class activities (\"bending\", \"walking\", \"cycling\", \"lying\", \"sitting\", \"standing\") classification was performed using Gaussian and Multinomial Naive Bayes classifier with an accuracy of 90%.",
         
       ].map(function (text) {
         return <li>{text}</li>;

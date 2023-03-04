@@ -32,6 +32,23 @@ const Projects = () => {
       ],
     },
     {
+      cardTitle: "Activity Classification on Time Series Data",
+      cardDetailedText: [
+        "Implemented a logistic regression model (with an accuracy of 93%) using case-controlled sampling technique to classify bending vs other activities on a dataset obtained by a Wireless Sensor Network.",
+        "Using the same dataset, the task of multi-class classification was performed using Gaussian and Multinomial Naive Bayes classifier with an accuracy of 90%",
+        
+      ].map(function (text) {
+        return <li>{text}</li>;
+      }),
+      technologies: ["Python", "scikit-learn", "Pandas"],
+      links: [
+        {
+          url: "https://github.com/nehalb123/",
+          text: "View Source Code",
+        },
+      ],
+    },
+    {
       cardTitle: "Lazers Puzzle Game",
       cardDetailedText: [
         "Guide the laser to its destination in this fun game.",
